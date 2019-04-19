@@ -1,0 +1,23 @@
+{
+    "name": "david-moreno-cortina/dependency-container",
+    "description": "Dependency container",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^8.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Moreno Cortina",
+            "email": "davidmorenocortina@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "DavidMorenoCortina\\DependencyContainer\\": "src"
+        }
+    }
+}
